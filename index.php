@@ -1,49 +1,28 @@
 <?php
 
-//<!--// ######## Представьте, что у вас есть мешок риса,##-->
-//
-//<!--// #####из которого вам нужно отмерить ровно 1 кг.##-->
-//
-//<!--// ###### В вашем распоряжении простейшие весы с двумя чашами,##-->
-//
-//<!--// ##### куда можно пересыпать рис, и гирька весом 1 г.##-->
-//
-//<!--// ## Какое минимальное взвешиваний понадобится, чтобы отмерить 1 кг риса?##-->
-//
-//<!--// # записать в виде кода-->
+require_once 'vendor/autoload.php';
 
-// Некое количество чего либо
-// Некое количество сколько нам надо
-// Весы - взвешиваем
-// Что-то, куда можно пересыпать рис
-// Мера весовая - эталон.
-// Получить какое то количество из общего
-// Получить количество взвешиваний
+use Isibia\Weighingservice\Models\BagOfRice;
+use Isibia\Weighingservice\Models\DishOfRice;
+use Isibia\Weighingservice\Models\Scale;
+use Isibia\Weighingservice\Services\WeighingService;
 
-class WeighingService
-{
+try {
+    $scale = new Scale(1);
+    $bagOfRice = new BagOfRice(10000);
+    $dish = new DishOfRice(1200);
+    $weightService = new WeighingService($scale, $bagOfRice, $dish);
 
+    echo '<pre>';
+    echo 'В мешке было: ' . $bagOfRice->getVolume() . '<br>';
+    echo 'В тарелке было: ' . $dish->getVolume() . '<br>';
+
+    echo 'ВЗВЕСИЛИ! ПЕРЕЛОЖИЛИ В ТАРЕЛКУ 1000!<br>';
+    $weightService->getWeight(1000);
+
+    echo 'В мешке осталось: ' . $bagOfRice->getVolume() . '<br>';
+    echo 'В тарелке сейчас: ' . $dish->getVolume() . '<br>';
+    echo 'Количество операций (иттераций): ' . $scale->getCountOperations() . '<br>';
+} catch (\InvalidArgumentException $exception) {
+    echo 'Error: ' . $exception->getMessage() . '; Code: ' . $exception->getCode();
 }
-
-class Scale
-{
-    private int $kettlebell;
-
-    public function __construct(int $kettlebell)
-    {
-        $this->kettlebell = $kettlebell;
-    }
-
-    public function getKettlebellWeight(): int
-    {
-        return $this->kettlebell;
-    }
-}
-
-$scale = new Scale(1);
-$weightService = new WeighingService();
-
-$scale->setKettlebell(1);
-
-echo '<pre>';
-var_dump($weightService);

@@ -1,0 +1,15 @@
+{
+    "name": "isibia/weighingservice",
+    "autoload": {
+        "psr-4": {
+            "Isibia\\Weighingservice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Anoshin",
+            "email": "artem-anoshin@yandex.ru"
+        }
+    ],
+    "require": {}
+}

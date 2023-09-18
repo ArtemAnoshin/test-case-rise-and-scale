@@ -1,0 +1,24 @@
+<?php
+
+namespace Isibia\Weighingservice\Models;
+
+class AbstractDish
+{
+    protected int $volume = 0;
+    protected int $maxVolume;
+
+    public function __construct(int $maxVolume)
+    {
+        $this->maxVolume = $maxVolume;
+    }
+
+    public function getVolume(): int
+    {
+        return $this->volume;
+    }
+
+    public function setVolume(int $volume): void
+    {
+        $this->volume = $volume;
+    }
+}
