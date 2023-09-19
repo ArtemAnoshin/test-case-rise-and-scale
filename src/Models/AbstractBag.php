@@ -21,4 +21,9 @@ class AbstractBag
     {
         return $this->volume;
     }
+
+    public function decreaseVolume(int $weight): void
+    {
+        $this->volume -= $weight;
+    }
 }

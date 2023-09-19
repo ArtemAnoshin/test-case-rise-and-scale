@@ -7,47 +7,32 @@ use Isibia\Weighingservice\Services\WeighingInterface;
 class Scale implements WeighingInterface
 {
     private int $kettlebell;
-    private int $bowlLeft = 0;
-    private int $bowlRight = 0;
     private int $countOperations = 0;
+    private int $currentWeight = 0;
 
     public function __construct(int $kettlebell)
     {
         $this->kettlebell = $kettlebell;
     }
 
-    public function getKettlebell(): int
+    public function getKettlebell(): int { return $this->kettlebell; }
+    public function getCountOperations(): int { return $this->countOperations; }
+    public function getCurrentWeight(): int { return $this->currentWeight; }
+
+    public function increaseCountOperations(): void
     {
-        return $this->kettlebell;
+        $this->countOperations++;
     }
 
-    public function getBowlLeft(): int
+    public function reset(): void
     {
-        return $this->bowlLeft;
+        $this->currentWeight = $this->getKettlebell();
+        $this->increaseCountOperations();
     }
 
-    public function setBowlLeft(int $bowlLeft): void
+    public function calcCurrentWeight(): void
     {
-        $this->bowlLeft = $bowlLeft;
-    }
-
-    public function getBowlRight(): int
-    {
-        return $this->bowlRight;
-    }
-
-    public function setBowlRight(int $bowlRight): void
-    {
-        $this->bowlRight = $bowlRight;
-    }
-
-    public function getKettlebellWeight(): int
-    {
-        return $this->kettlebell;
-    }
-
-    public function getCountOperations()
-    {
-        return $this->countOperations;
+        $this->currentWeight *= 2;
+        $this->increaseCountOperations();
     }
 }

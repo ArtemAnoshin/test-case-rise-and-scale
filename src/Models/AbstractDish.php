@@ -17,8 +17,13 @@ class AbstractDish
         return $this->volume;
     }
 
-    public function setVolume(int $volume): void
+    public function updateVolume(int $volume): void
     {
-        $this->volume = $volume;
+        $this->volume += $volume;
+    }
+
+    public function getMaxVolume(): int
+    {
+        return $this->maxVolume;
     }
 }

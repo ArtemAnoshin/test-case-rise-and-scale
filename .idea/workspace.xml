@@ -121,18 +121,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/OSPanel/domains/php-uni.loc",
+    "last_opened_file_path": "C:/OSPanel/domains/php-uni.loc/src/Exceptions",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
     "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\php-uni.loc\src\Exceptions" />
       <recent name="C:\OSPanel\domains\php-uni.loc" />
       <recent name="C:\OSPanel\domains\php-uni.loc\uniforce" />
     </key>
@@ -180,7 +182,7 @@
       <workItem from="1694414364840" duration="101000" />
       <workItem from="1694591264019" duration="4363000" />
       <workItem from="1694672179284" duration="1201000" />
-      <workItem from="1695028272698" duration="6216000" />
+      <workItem from="1695028272698" duration="15800000" />
     </task>
     <servers />
   </component>
