@@ -51,17 +51,20 @@ class WeighingService
     {
         $remainingWeight = $weight;
 
+        $this->scale->reset();
         do {
             $this->scale->reset();
-
             do {
                 $this->scale->calcCurrentWeight();
-                $featureWeight = $this->scale->getCurrentWeight() * 2;
-            } while ($featureWeight < $remainingWeight);
+            } while ($this->scale->getCurrentWeight() * 4 < $remainingWeight);
 
-            $this->dish->updateVolume($this->scale->getCurrentWeight());
-            $this->bag->decreaseVolume($this->scale->getCurrentWeight());
-            $remainingWeight = $weight - $this->dish->getVolume();
-        } while ($this->dish->getVolume() !== $weight);
+            for ($i = 0; $i < 3; $i++) {
+                if (($this->dish->getVolume() + $this->scale->getCurrentWeight()) <= $weight) {
+                    $this->dish->updateVolume($this->scale->getCurrentWeight());
+                    $this->bag->decreaseVolume($this->scale->getCurrentWeight());
+                    $remainingWeight -= $this->scale->getCurrentWeight();
+                }
+            }
+        } while ($this->dish->getVolume() < $weight);
     }
 }
