@@ -5,92 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8cb3770-fcad-4f9a-a4fa-6502eb455523" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/check_requirements.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/cleantalk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/css/animate-custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/css/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/css/overhang.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/css/setup-wizard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/data/cron_data.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/data/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/data/sfw_logs/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/data/sfw_nets.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/img/ct_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/img/expand_more.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/img/help_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/img/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/img/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/inc/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/inc/common.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/inc/cron_functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/inc/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/inc/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/install.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/ct_ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/ct_ajax_catch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/ct_js_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/overhang.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/js/placeholder-shim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Antispam/Cleantalk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Antispam/CleantalkRequest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Antispam/CleantalkResponse.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Antispam/SFW.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Antispam/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/ApbctUni/API.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/ApbctUni/Cron.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/ApbctUni/Helper.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/ApbctUni/SFW.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/ApbctUni/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Common/API.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Common/Arr.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Common/Cron.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Common/DB.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Common/Err.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Common/File.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Common/GetFieldsAny.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Common/Helper.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Common/Validate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Common/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Templates/Singleton.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Templates/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Updater/Updater.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Variables/Cookie.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Variables/Get.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Variables/Post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Variables/Request.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Variables/Server.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Variables/SuperGlobalVariables.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/Variables/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/Cleantalk/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/autoloader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/ct_phpFix.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/die_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/lib/sfw_die_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleantalk/settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/cleantalk_test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ct_functions_test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -106,7 +29,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -115,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/OSPanel/domains/php-uni.loc/src/Exceptions",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/OSPanel/domains/php-uni.loc/src/Exceptions&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\php-uni.loc\src\Exceptions" />
@@ -182,7 +109,8 @@
       <workItem from="1694414364840" duration="101000" />
       <workItem from="1694591264019" duration="4363000" />
       <workItem from="1694672179284" duration="1201000" />
-      <workItem from="1695028272698" duration="15800000" />
+      <workItem from="1695028272698" duration="16518000" />
+      <workItem from="1695096256774" duration="292000" />
     </task>
     <servers />
   </component>
