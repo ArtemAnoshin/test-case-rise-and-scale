@@ -10,7 +10,7 @@ use Isibia\Weighingservice\Models\AbstractDish;
 
 class WeighingService
 {
-    private mixed $scale;
+    private WeighingInterface $scale;
     private AbstractBag $bag;
     private AbstractDish $dish;
 
